@@ -101,7 +101,7 @@ footer {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        padding-right: 0.10rem;
     }
 
     #menu {
@@ -110,6 +110,7 @@ footer {
 
     #menu>li {
         padding-left: 1rem;
+        font-size: small;
     }
 
     .nav-toggle-label {
@@ -117,15 +118,17 @@ footer {
     }
 
     #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
+        font-size: 120%;
+        line-height: 20px;
+        flex: 1 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+        margin-top: 60px;
     }
 }
 
