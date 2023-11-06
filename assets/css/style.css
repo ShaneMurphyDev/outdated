@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap');
+
+header {
+    background-color: lightblue;
+}
+
+main {
+    background-color: lightcoral;
+}
+footer {
+    background-color: aquamarine;
+}
