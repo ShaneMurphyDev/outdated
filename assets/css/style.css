@@ -15,6 +15,14 @@ body {
     color: #3a3a3a;
 }
 
+h2, h3 {
+    font-family: 'Playpen Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+    font-size: smaller;
+}
+
 /*  Header  */
 header {
     background-color: white;
@@ -29,12 +37,12 @@ header {
 }
 
 header a {
+    font-size: small;
     text-decoration: none;
     color: inherit;
 }
 
-h1 {
-    font-size: 150%;
+h1, h2, h3 {
     font-family: 'Playpen Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -89,7 +97,7 @@ main {
 
 /*  Hero Section  */
 #hero {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url(../images/hero_ape.jpg) no-repeat center center/cover
 }
