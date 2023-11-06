@@ -23,6 +23,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -31,6 +34,7 @@ header a {
 }
 
 h1 {
+    font-size: 150%;
     font-family: 'Playpen Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -61,6 +65,19 @@ nav {
     box-shadow: 0 2px 2px black;
     display: none;
     top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /*  Main Content*/
