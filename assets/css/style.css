@@ -106,11 +106,12 @@ footer {
 
     #menu {
         display: flex;
+        letter-spacing: 1px;
     }
 
     #menu>li {
-        padding-left: 1rem;
         font-size: small;
+        padding: 0 0.5rem;
     }
 
     .nav-toggle-label {
